@@ -1,3 +1,41 @@
 * LeetCode 题解
 
 - Language: Python3
+
+Solved: [31/-]
+
+** Record
+
+|  # | Title                                          | Solution                    |
+|----+------------------------------------------------+-----------------------------|
+| 31 | [[https://leetcode-cn.com/problems/next-permutation/][Next Permutation]]                               | [[next_permutation.py]]         |
+| 30 | [[https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/submissions/][Substring with Concatenation of All Words]]      | -                           |
+| 29 | [[https://leetcode-cn.com/problems/divide-two-integers/][Divide Two Integers]]                            | [[divide.py]]                   |
+| 28 | [[https://leetcode-cn.com/problems/implement-strstr/][Implement strStr()]]                             | -                           |
+| 27 | [[https://leetcode-cn.com/problems/remove-element/][Remove Element]]                                 | -                           |
+| 26 | [[https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/][Remove Duplicates from Sorted Array]]            | [[remove_duplicates.py]]        |
+| 25 | [[https://leetcode-cn.com/problems/reverse-nodes-in-k-group/][Reverse Nodes in k-Group]]                       | [[reverse_k_group.py]]          |
+| 24 | [[https://leetcode-cn.com/problems/swap-nodes-in-pairs/][Swap Nodes in Pairs]]                            | [[swap_pairs.py]]               |
+| 23 | [[https://leetcode-cn.com/problems/merge-k-sorted-lists/][Merge k Sorted Lists]]                           | [[merge_k_list.py]]             |
+| 22 | [[https://leetcode-cn.com/problems/generate-parentheses/][Generate Parentheses]]                           | [[generate_parenthesis.py]]     |
+| 21 | [[https://leetcode-cn.com/problems/merge-two-sorted-lists/][Merge Two Sorted Lists]]                         | [[merge_two_list.py]]           |
+| 20 | [[https://leetcode-cn.com/problems/valid-parentheses/][Valid Parentheses]]                              | [[is_valid.py]]                 |
+| 19 | [[https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/][Remove Nth Node From End of List]]               | [[remove_nth_from_end.py]]      |
+| 18 | [[https://leetcode-cn.com/problems/4sum/][4Sum]]                                           | [[four_sum.py]]                 |
+| 17 | [[https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/][Letter Combination of a Phone Number]]           | [[letter_combination.py]]       |
+| 16 | [[https://leetcode-cn.com/problems/3sum-closest/][3Sum Closest]]                                   | [[three_sum_closest.py]]        |
+| 15 | [[https://leetcode-cn.com/problems/3sum/][3Sum]]                                           | [[three_sum.py]]                |
+| 14 | [[https://leetcode-cn.com/problems/longest-common-prefix/][Longest Common Prefix]]                          | [[longest_common_prefix.py]]    |
+| 13 | [[https://leetcode-cn.com/problems/roman-to-integer/][Roman to Integer]]                               | [[roman_to_int.py]]             |
+| 12 | [[https://leetcode-cn.com/problems/integer-to-roman/][Integer to Roman]]                               | [[int_to_roman.py]]             |
+| 11 | [[https://leetcode-cn.com/problems/container-with-most-water/][Container With Most Water]]                      | [[max_area.py]]                 |
+| 10 | [[https://leetcode-cn.com/problems/regular-expression-matching/][Regular Expression Matching]]                    | [[is_match.py]]                 |
+|  9 | [[https://leetcode-cn.com/problems/palindrome-number/][Palindrome]]                                     | [[is_palindrome.py]]            |
+|  8 | [[https://leetcode-cn.com/problems/string-to-integer-atoi/][String to Integer]]                              | [[my_atoi.py]]                  |
+|  7 | [[https://leetcode-cn.com/problems/reverse-integer/][Reverse Integer]]                                | [[reverse_int.py]]              |
+|  6 | [[https://leetcode-cn.com/problems/zigzag-conversion/][ZigZag Conversion]]                              | [[zigzag-conversion.py]]        |
+|  5 | [[https://leetcode-cn.com/problems/longest-palindromic-substring/][Longest Palindromic SubString]]                  | [[longest_palindrome.py]]       |
+|  4 | [[https://leetcode-cn.com/problems/median-of-two-sorted-arrays/][Median of Two Sorted Arrays]]                    | [[find_median_sorted_array.py]] |
+|  3 | [[https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/][Longest Substring Without Repeating Characters]] | [[longest_substr.py]]           |
+|  2 | [[https://leetcode-cn.com/problems/add-two-numbers/][Add Two Numbers]]                                | -                           |
+|  1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                        | [[twosum.py]]                   |
