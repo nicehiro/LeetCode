@@ -9,7 +9,7 @@ Solved: [31/-]
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
 | 31 | [[https://leetcode-cn.com/problems/next-permutation/][Next Permutation]]                               | [[next_permutation.py]]         |
-| 30 | [[https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/submissions/][Substring with Concatenation of All Words]]      | -                           |
+| 30 | [[https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/submissions/][Substring with Concatenation of All Words]]      | [[find_substring.py]]           |
 | 29 | [[https://leetcode-cn.com/problems/divide-two-integers/][Divide Two Integers]]                            | [[divide.py]]                   |
 | 28 | [[https://leetcode-cn.com/problems/implement-strstr/][Implement strStr()]]                             | -                           |
 | 27 | [[https://leetcode-cn.com/problems/remove-element/][Remove Element]]                                 | -                           |
