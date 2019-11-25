@@ -8,6 +8,7 @@ Solved: [31/-]
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 35 | [[https://leetcode-cn.com/problems/search-insert-position/][Search insert Position]]                         | [[search_insert.py]]            |
 | 34 | [[https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/submissions/][Find First and Last Element in sorted array]]    | [[search_range.py]]             |
 | 33 | [[https://leetcode-cn.com/problems/search-in-rotated-sorted-array/][Search in Rotated Sorted Array]]                 | [[search_in_sorted_array.py]]   |
 | 32 | [[https://leetcode-cn.com/problems/longest-valid-parentheses/][Largest Valid Parentheses]]                      | [[largest_valid_parenteses.py]] |
