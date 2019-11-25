@@ -8,6 +8,8 @@ Solved: [31/-]
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 33 | [[https://leetcode-cn.com/problems/search-in-rotated-sorted-array/][Search in Rotated Sorted Array]]                 | [[search_in_sorted_array.py]]   |
+| 32 | [[https://leetcode-cn.com/problems/longest-valid-parentheses/][Largest Valid Parentheses]]                      | [[largest_valid_parenteses.py]] |
 | 31 | [[https://leetcode-cn.com/problems/next-permutation/][Next Permutation]]                               | [[next_permutation.py]]         |
 | 30 | [[https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/submissions/][Substring with Concatenation of All Words]]      | [[find_substring.py]]           |
 | 29 | [[https://leetcode-cn.com/problems/divide-two-integers/][Divide Two Integers]]                            | [[divide.py]]                   |

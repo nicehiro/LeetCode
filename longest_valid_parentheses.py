@@ -1,29 +1,21 @@
 class Solution:
     def longestValidParentheses(self, s: str) -> int:
-        i = 0
-        longest = 0
-        while i < len(s):
-            if s[i] == ')':
-                i += 1
-                continue
-            left, right = 1, 0
-            j = i + 1
-            while j < len(s):
-                if s[j] == '(':
-                    left += 1
-                else:
-                    right += 1
-                if left < right:
-                    longest = max(longest, 2 * min(left, right))
-                    break
-                j += 1
-            if j == len(s):
-                longest = max(longest, 2 * min(left, right))
-            i += 1
-        return longest
+        res = 0
+        length = len(s)
+        dp = [0 for _ in range(length)]
+        for i in range(1, length):
+            if s[i] == ')' and s[i-1] == '(':
+                dp[i] = (dp[i-2] if i >= 2 else 0) + 2
+                res = max(res, dp[i])
+            elif s[i] == ')' and s[i-1] == ')' \
+                and i - dp[i-1] > 0 \
+                and s[i-dp[i-1]-1] == '(':
+                dp[i] = dp[i-1] + (dp[i-dp[i-1]-2] if (i - dp[i-1]) >= 2 else 0) + 2
+                res = max(res, dp[i])
+        return res
 
 
 if __name__ == '__main__':
     s = Solution()
-    st = '(()'
+    st = '()(())'
     print(s.longestValidParentheses(st))
