@@ -8,6 +8,9 @@ Solved: [31/-]
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 38 | [[https://leetcode-cn.com/problems/count-and-say/submissions/][Count and Say]]                                  | [[count_and_say.py]]            |
+| 37 | [[https://leetcode-cn.com/problems/sudoku-solver/][Sudoku Solver]]                                  | [[solve_sodoku.py]]             |
+| 36 | [[https://leetcode-cn.com/problems/valid-sudoku/][Valid Sudoku]]                                   | [[valid_sudoku.py]]             |
 | 35 | [[https://leetcode-cn.com/problems/search-insert-position/][Search insert Position]]                         | [[search_insert.py]]            |
 | 34 | [[https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/submissions/][Find First and Last Element in sorted array]]    | [[search_range.py]]             |
 | 33 | [[https://leetcode-cn.com/problems/search-in-rotated-sorted-array/][Search in Rotated Sorted Array]]                 | [[search_in_sorted_array.py]]   |
@@ -43,3 +46,4 @@ Solved: [31/-]
 |  3 | [[https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/][Longest Substring Without Repeating Characters]] | [[longest_substr.py]]           |
 |  2 | [[https://leetcode-cn.com/problems/add-two-numbers/][Add Two Numbers]]                                | -                           |
 |  1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                        | [[twosum.py]]                   |
+|    |                                                |                             |
