@@ -8,6 +8,7 @@ Solved: [31/-]
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 39 | [[https://leetcode-cn.com/problems/combination-sum/][Combination Sum]]                                | [[combination_sum.py]]          |
 | 38 | [[https://leetcode-cn.com/problems/count-and-say/submissions/][Count and Say]]                                  | [[count_and_say.py]]            |
 | 37 | [[https://leetcode-cn.com/problems/sudoku-solver/][Sudoku Solver]]                                  | [[solve_sodoku.py]]             |
 | 36 | [[https://leetcode-cn.com/problems/valid-sudoku/][Valid Sudoku]]                                   | [[valid_sudoku.py]]             |
