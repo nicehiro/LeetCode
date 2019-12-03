@@ -2,12 +2,13 @@
 
 - Language: Python3
 
-Solved: [31/-]
+- Solved: [40/-]
 
 ** Record
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 40 | [[https://leetcode-cn.com/problems/combination-sum-ii/][Combination Sum 2]]                              | [[combination_sum2.py]]         |
 | 39 | [[https://leetcode-cn.com/problems/combination-sum/][Combination Sum]]                                | [[combination_sum.py]]          |
 | 38 | [[https://leetcode-cn.com/problems/count-and-say/submissions/][Count and Say]]                                  | [[count_and_say.py]]            |
 | 37 | [[https://leetcode-cn.com/problems/sudoku-solver/][Sudoku Solver]]                                  | [[solve_sodoku.py]]             |
@@ -47,4 +48,17 @@ Solved: [31/-]
 |  3 | [[https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/][Longest Substring Without Repeating Characters]] | [[longest_substr.py]]           |
 |  2 | [[https://leetcode-cn.com/problems/add-two-numbers/][Add Two Numbers]]                                | -                           |
 |  1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                        | [[twosum.py]]                   |
-|    |                                                |                             |
+
+** 思路笔记
+
+*** 40 Combination Sum 2
+典型的动态规划题型。
+
+\begin{equation}
+dp(t, p) = \left\{
+[dp(t-nums[p], p-1).append(nums[p])] \\
+dp[t, p - 1]
+\right
+\end{equation}
+
+如果使用迭代算法需要二维数组保存中间结果。
