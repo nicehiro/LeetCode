@@ -8,6 +8,7 @@
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 41 | [[https://leetcode-cn.com/problems/first-missing-positive/][First Missing Positive]]                         | [[first_missing_positive.py]]   |
 | 40 | [[https://leetcode-cn.com/problems/combination-sum-ii/][Combination Sum 2]]                              | [[combination_sum2.py]]         |
 | 39 | [[https://leetcode-cn.com/problems/combination-sum/][Combination Sum]]                                | [[combination_sum.py]]          |
 | 38 | [[https://leetcode-cn.com/problems/count-and-say/submissions/][Count and Say]]                                  | [[count_and_say.py]]            |
@@ -50,6 +51,12 @@
 |  1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                        | [[twosum.py]]                   |
 
 ** 思路笔记
+
+*** 41 First Missing Positive
+这道题算是技巧题目，没有固定的题型。
+- 此题的题解范围为：1 ~ n+1
+- 可以原地做标记表示某个数是否在数组中出现过
+- 使用位置 0 判断数字 n 是否出现过
 
 *** 40 Combination Sum 2
 典型的动态规划题型。
