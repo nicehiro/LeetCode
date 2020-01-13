@@ -8,6 +8,7 @@
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 42 | [[https://leetcode-cn.com/problems/trapping-rain-water/submissions/][Trapping Rain Water]]                            | [[trapping_rain_water.py]]      |
 | 41 | [[https://leetcode-cn.com/problems/first-missing-positive/][First Missing Positive]]                         | [[first_missing_positive.py]]   |
 | 40 | [[https://leetcode-cn.com/problems/combination-sum-ii/][Combination Sum 2]]                              | [[combination_sum2.py]]         |
 | 39 | [[https://leetcode-cn.com/problems/combination-sum/][Combination Sum]]                                | [[combination_sum.py]]          |
@@ -51,6 +52,19 @@
 |  1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                        | [[twosum.py]]                   |
 
 ** 思路笔记
+*** 42 Trapping Rain Water
+思路：
+
+#+BEGIN_QUOTE
+res[i] = max(0, min(max(left_heights), max(right_heights)) - heights[i])
+#+END_QUOTE
+
+找左边、右边最大高度可以使用动态规划。
+
+#+BEGIN_QUOTE
+left_opt[i] = max(height[i-1], left_opt[i-1])
+right_opt[i] = max(height[i+1], right_opt[i+1])
+#+END_QUOTE
 
 *** 41 First Missing Positive
 这道题算是技巧题目，没有固定的题型。
