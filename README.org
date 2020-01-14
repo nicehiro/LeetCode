@@ -8,6 +8,7 @@
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 43 | [[https://leetcode-cn.com/problems/multiply-strings/][Multiply Strings]]                               | [[multiply_strings.py]]         |
 | 42 | [[https://leetcode-cn.com/problems/trapping-rain-water/submissions/][Trapping Rain Water]]                            | [[trapping_rain_water.py]]      |
 | 41 | [[https://leetcode-cn.com/problems/first-missing-positive/][First Missing Positive]]                         | [[first_missing_positive.py]]   |
 | 40 | [[https://leetcode-cn.com/problems/combination-sum-ii/][Combination Sum 2]]                              | [[combination_sum2.py]]         |
