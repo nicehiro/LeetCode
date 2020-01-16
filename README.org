@@ -1,3 +1,5 @@
+#+STARTUP: latexpreview
+
 * LeetCode 题解
 
 - Language: Python3
@@ -8,6 +10,7 @@
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 44 | [[https://leetcode-cn.com/problems/wildcard-matching/submissions/][Wildcard Matching]]                              | [[wildcard_matching.py]]        |
 | 43 | [[https://leetcode-cn.com/problems/multiply-strings/][Multiply Strings]]                               | [[multiply_strings.py]]         |
 | 42 | [[https://leetcode-cn.com/problems/trapping-rain-water/submissions/][Trapping Rain Water]]                            | [[trapping_rain_water.py]]      |
 | 41 | [[https://leetcode-cn.com/problems/first-missing-positive/][First Missing Positive]]                         | [[first_missing_positive.py]]   |
@@ -53,6 +56,27 @@
 |  1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                        | [[twosum.py]]                   |
 
 ** 思路笔记
+*** 44 Wildcard Matching
+本题是动态规划问题，思考写出其迭代式：
+
+\[
+dp(i, j) = \begin{cases}
+dp(i+1, j+1), & \text{if } s[i] == p[j] \text{ or } p[j] == '?'; \\
+False, & \text{if } s[i] \neq p[j]; \\
+dp(i, j+1) \text{ or } dp(i+1, j) \text{ or } dp(i+1, j+1), & \text{if } p[j] == '*'.
+\end{cases}
+\]
+
+其中，\(dp(i, j)\)表示\(s[i:]\)与\(p[j:]\)是否匹配。
+
+如果直接使用递归方法，不能通过所有测试用例，原因是耗时过多。改进的方法有：
+- 使用缓存，保存已经计算过的 dp 值
+- 使用迭代方法
+
+迭代方法需要添加多的一行和一列的表格。不妨设有 =len(s)+1= 列和 =len(p)+1= 行；那么：
+- 第 =len(s)+1= 列表示 s 序列为空时， =p[j:]= 是否可以匹配（只有当 =p[j:]= 都是 '*'时可以匹配）
+- 第 =len(p)+1= 行表示 p 序列为空时，能否匹配 s 序列，当然都是 False
+
 *** 42 Trapping Rain Water
 思路：
 
@@ -76,11 +100,11 @@ right_opt[i] = max(height[i+1], right_opt[i+1])
 *** 40 Combination Sum 2
 典型的动态规划题型。
 
-\begin{equation}
-dp(t, p) = \left\{
-[dp(t-nums[p], p-1).append(nums[p])] \\
+\[
+dp(t, p) = \begin{cases}
+dp(t-nums[p], p-1).append(nums[p]) \\
 dp[t, p - 1]
-\right
-\end{equation}
+\end{cases}
+\]
 
 如果使用迭代算法需要二维数组保存中间结果。
