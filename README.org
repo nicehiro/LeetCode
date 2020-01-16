@@ -10,6 +10,7 @@
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 45 | [[https://leetcode-cn.com/problems/jump-game-ii/submissions/][Jump Game 2]]                                    | [[jump_game_2.py]]              |
 | 44 | [[https://leetcode-cn.com/problems/wildcard-matching/submissions/][Wildcard Matching]]                              | [[wildcard_matching.py]]        |
 | 43 | [[https://leetcode-cn.com/problems/multiply-strings/][Multiply Strings]]                               | [[multiply_strings.py]]         |
 | 42 | [[https://leetcode-cn.com/problems/trapping-rain-water/submissions/][Trapping Rain Water]]                            | [[trapping_rain_water.py]]      |
@@ -56,6 +57,11 @@
 |  1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                        | [[twosum.py]]                   |
 
 ** 思路笔记
+*** 45 Jump Game 2
+贪心问题。这个动态规划问题需要使用贪心算法解决才能满足时间条件。
+
+贪心思想：每次跳的位置要么是直接达到目的地，要么是下次能跳的最远的地方。
+
 *** 44 Wildcard Matching
 本题是动态规划问题，思考写出其迭代式：
 
