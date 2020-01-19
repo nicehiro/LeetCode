@@ -10,6 +10,7 @@
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 46 | [[https://leetcode-cn.com/problems/permutations/submissions/][Permutations]]                                   | [[permute.py]]                  |
 | 45 | [[https://leetcode-cn.com/problems/jump-game-ii/submissions/][Jump Game 2]]                                    | [[jump_game_2.py]]              |
 | 44 | [[https://leetcode-cn.com/problems/wildcard-matching/submissions/][Wildcard Matching]]                              | [[wildcard_matching.py]]        |
 | 43 | [[https://leetcode-cn.com/problems/multiply-strings/][Multiply Strings]]                               | [[multiply_strings.py]]         |
