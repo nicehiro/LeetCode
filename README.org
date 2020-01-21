@@ -10,6 +10,7 @@
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 47 | [[https://leetcode-cn.com/problems/permutations-ii/submissions/][Permutations 2]]                                 | [[permute_2.py]]                |
 | 46 | [[https://leetcode-cn.com/problems/permutations/submissions/][Permutations]]                                   | [[permute.py]]                  |
 | 45 | [[https://leetcode-cn.com/problems/jump-game-ii/submissions/][Jump Game 2]]                                    | [[jump_game_2.py]]              |
 | 44 | [[https://leetcode-cn.com/problems/wildcard-matching/submissions/][Wildcard Matching]]                              | [[wildcard_matching.py]]        |
@@ -58,6 +59,9 @@
 |  1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                        | [[twosum.py]]                   |
 
 ** 思路笔记
+*** 46 47 Permutation
+动态规划和剪枝优化的问题。
+
 *** 45 Jump Game 2
 贪心问题。这个动态规划问题需要使用贪心算法解决才能满足时间条件。
 
