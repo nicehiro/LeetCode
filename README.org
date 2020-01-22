@@ -10,6 +10,7 @@
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 50 | [[https://leetcode-cn.com/problems/powx-n/submissions/][Pow]]                                            | [[my_pow.py]]                   |
 | 49 | [[https://leetcode-cn.com/problems/group-anagrams/][group_anagrams.py]]                              | [[group_anagrams.py]]           |
 | 48 | [[https://leetcode-cn.com/problems/rotate-image/][Rotate Image]]                                   | [[rotate.py]]                   |
 | 47 | [[https://leetcode-cn.com/problems/permutations-ii/submissions/][Permutations 2]]                                 | [[permute_2.py]]                |
