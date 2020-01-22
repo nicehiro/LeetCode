@@ -10,6 +10,7 @@
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 48 | [[https://leetcode-cn.com/problems/rotate-image/][Rotate Image]]                                   | [[rotate.py]]                   |
 | 47 | [[https://leetcode-cn.com/problems/permutations-ii/submissions/][Permutations 2]]                                 | [[permute_2.py]]                |
 | 46 | [[https://leetcode-cn.com/problems/permutations/submissions/][Permutations]]                                   | [[permute.py]]                  |
 | 45 | [[https://leetcode-cn.com/problems/jump-game-ii/submissions/][Jump Game 2]]                                    | [[jump_game_2.py]]              |
