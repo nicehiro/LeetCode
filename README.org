@@ -10,6 +10,8 @@
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 54 | [[https://leetcode-cn.com/problems/spiral-matrix/][Spiral Matrix]]                                  | [[spiral_order.py]]             |
+| 53 | [[https://leetcode-cn.com/problems/maximum-subarray/][Maximum Subarray]]                               | [[max_sub_array.py]]            |
 | 52 | [[https://leetcode-cn.com/problems/n-queens-ii/][N Queens 2]]                                     | [[solve_n_queens_2.py]]         |
 | 51 | [[https://leetcode-cn.com/problems/n-queens/][N Queens]]                                       | [[solve_n_queens.py]]           |
 | 50 | [[https://leetcode-cn.com/problems/powx-n/submissions/][Pow]]                                            | [[my_pow.py]]                   |
