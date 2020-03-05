@@ -10,6 +10,10 @@
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 60 | [[https://leetcode-cn.com/problems/permutation-sequence/][Permutation Sequence]]                           | [[permutation_sequence.py]]     |
+| 59 | [[https://leetcode-cn.com/problems/spiral-matrix-ii/][Spiral Matrix 2]]                                | [[generate_matrix.py]]          |
+| 58 | [[https://leetcode-cn.com/problems/length-of-last-word/][Length of Last Word]]                            | [[length_of_last_word.py]]      |
+| 57 | [[https://leetcode-cn.com/problems/insert-interval/][Insert Interval]]                                | [[insert_intervals.py]]         |
 | 56 | [[https://leetcode-cn.com/problems/merge-intervals/][Merge Intervals]]                                | [[merge_intervals.py]]          |
 | 55 | [[https://leetcode-cn.com/problems/jump-game/][Jump Game]]                                      | [[jump_game.py]]                |
 | 54 | [[https://leetcode-cn.com/problems/spiral-matrix/][Spiral Matrix]]                                  | [[spiral_order.py]]             |
