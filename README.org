@@ -10,6 +10,7 @@
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 61 | [[https://leetcode-cn.com/problems/rotate-list/][Rotate List]]                                    | [[rotate_list.py]]              |
 | 60 | [[https://leetcode-cn.com/problems/permutation-sequence/][Permutation Sequence]]                           | [[permutation_sequence.py]]     |
 | 59 | [[https://leetcode-cn.com/problems/spiral-matrix-ii/][Spiral Matrix 2]]                                | [[generate_matrix.py]]          |
 | 58 | [[https://leetcode-cn.com/problems/length-of-last-word/][Length of Last Word]]                            | [[length_of_last_word.py]]      |
