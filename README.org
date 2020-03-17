@@ -10,6 +10,7 @@
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 64 | [[https://leetcode-cn.com/problems/minimum-path-sum/][Minimum Path Sum]]                               | [[min_path_sum.py]]             |
 | 63 | [[https://leetcode-cn.com/problems/unique-paths-ii/][Unique Paths 2]]                                 | [[unique_path2.py]]             |
 | 62 | [[https://leetcode-cn.com/problems/unique-paths/submissions/][Unique Paths]]                                   | [[unique_path.py]]              |
 | 61 | [[https://leetcode-cn.com/problems/rotate-list/][Rotate List]]                                    | [[rotate_list.py]]              |
