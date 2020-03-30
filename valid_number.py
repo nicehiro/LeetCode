@@ -2,8 +2,10 @@ import re
 
 
 class Solution:
+    """Stupid description of this problem. So just need more try.
+    """
     def isNumber(self, s: str) -> bool:
-        regex = r'\s*[+-]?((([.]\d+)|(\d+([.]\d+)))|(\d+([.]\d+)?(e[+-]?\d+([.]\d+))?))\s*$'
+        regex = r'\s*[+-]?((([.]\d+)|(\d+([.]\d*)?))((e[+-]?\d+)?))\s*$'
         res = re.match(regex, s)
         return False if res is None else True
 
