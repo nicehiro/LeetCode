@@ -10,6 +10,7 @@
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 70 | [[https://leetcode-cn.com/problems/climbing-stairs/][Climbing Stairs]]                                | [[climbing_stairs.py]]          |
 | 69 | [[https://leetcode-cn.com/problems/sqrtx/][Sqrt(x)]]                                        | [[my_sqrt.py]]                  |
 | 68 | [[https://leetcode-cn.com/problems/text-justification/][Text Justification]]                             | [[text_justification.py]]       |
 | 67 | [[https://leetcode-cn.com/problems/add-binary/][Add Binary]]                                     | [[add_binary.py]]               |
