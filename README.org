@@ -10,6 +10,7 @@
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 73 | [[https://leetcode-cn.com/problems/set-matrix-zeroes/][Set Matrix Zeros]]                               | [[set_zeros.py]]                |
 | 72 | [[https://leetcode-cn.com/problems/edit-distance/][Edit Distance]]                                  | [[edit_distance.py]]            |
 | 71 | [[https://leetcode-cn.com/problems/simplify-path/][Simplify Path]]                                  | [[simplify_path.py]]            |
 | 70 | [[https://leetcode-cn.com/problems/climbing-stairs/][Climbing Stairs]]                                | [[climbing_stairs.py]]          |
