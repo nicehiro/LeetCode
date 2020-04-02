@@ -4,12 +4,13 @@
 
 - Language: Python3
 
-- Solved: [40/-]
+- Solved: [72/-]
 
 ** Record
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 72 | [[https://leetcode-cn.com/problems/edit-distance/][Edit Distance]]                                  | [[edit_distance.py]]            |
 | 71 | [[https://leetcode-cn.com/problems/simplify-path/][Simplify Path]]                                  | [[simplify_path.py]]            |
 | 70 | [[https://leetcode-cn.com/problems/climbing-stairs/][Climbing Stairs]]                                | [[climbing_stairs.py]]          |
 | 69 | [[https://leetcode-cn.com/problems/sqrtx/][Sqrt(x)]]                                        | [[my_sqrt.py]]                  |
@@ -83,6 +84,12 @@
 |  1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                        | [[twosum.py]]                   |
 
 ** 思路笔记
+*** 72 Minimum Edit Distance
+Edit Distance 是经典的动态规划问题，主要思想就是：将两个单词 =word1, word2= 最后一位对齐，从后向前比较。如果两个单词最后一位相同，那么多这一位并不影响 Edit Distance，所以其 ED 等于 =ED(m-1, n-1)= ；如果最后一位不同，那么多的一位可能有三种情况：
+- 被删除 =ED(m-1, n)=
+- 修改 =ED(m-1, n-1)=
+- 被添加 =ED(m, n-1)=
+
 *** 46 47 Permutation
 动态规划和剪枝优化的问题。
 
@@ -114,7 +121,6 @@ dp(i, j+1) \text{ or } dp(i+1, j) \text{ or } dp(i+1, j+1), & \text{if } p[j] ==
 
 *** 42 Trapping Rain Water
 思路：
-
 #+BEGIN_QUOTE
 res[i] = max(0, min(max(left_heights), max(right_heights)) - heights[i])
 #+END_QUOTE
