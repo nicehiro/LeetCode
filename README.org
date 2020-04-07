@@ -10,6 +10,8 @@
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 75 | [[https://leetcode-cn.com/problems/sort-colors/submissions/][Sort Color]]                                     | [[sort_color.py]]               |
+| 74 | [[https://leetcode-cn.com/problems/search-a-2d-matrix/][Search a 2D Matrix]]                             | [[search_matrix.py]]            |
 | 73 | [[https://leetcode-cn.com/problems/set-matrix-zeroes/][Set Matrix Zeros]]                               | [[set_zeros.py]]                |
 | 72 | [[https://leetcode-cn.com/problems/edit-distance/][Edit Distance]]                                  | [[edit_distance.py]]            |
 | 71 | [[https://leetcode-cn.com/problems/simplify-path/][Simplify Path]]                                  | [[simplify_path.py]]            |
@@ -85,6 +87,9 @@
 |  1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                        | [[twosum.py]]                   |
 
 ** 思路笔记
+*** 75 Color Search
+想一个小技巧，能在一次遍历中完成题目要求。可以考虑三个标志位，分别记录三个颜色的第一次出现的位置，在此基础上可以思考出正解。
+
 *** 72 Minimum Edit Distance
 Edit Distance 是经典的动态规划问题，主要思想就是：将两个单词 =word1, word2= 最后一位对齐，从后向前比较。如果两个单词最后一位相同，那么多这一位并不影响 Edit Distance，所以其 ED 等于 =ED(m-1, n-1)= ；如果最后一位不同，那么多的一位可能有三种情况：
 - 被删除 =ED(m-1, n)=
