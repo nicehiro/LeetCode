@@ -10,6 +10,7 @@
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 76 | [[https://leetcode-cn.com/problems/minimum-window-substring/][Minimum Window Substring]]                       | [[min_window.py]]               |
 | 75 | [[https://leetcode-cn.com/problems/sort-colors/submissions/][Sort Color]]                                     | [[sort_color.py]]               |
 | 74 | [[https://leetcode-cn.com/problems/search-a-2d-matrix/][Search a 2D Matrix]]                             | [[search_matrix.py]]            |
 | 73 | [[https://leetcode-cn.com/problems/set-matrix-zeroes/][Set Matrix Zeros]]                               | [[set_zeros.py]]                |
@@ -87,6 +88,9 @@
 |  1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                        | [[twosum.py]]                   |
 
 ** 思路笔记
+*** 76 Minimum Window Substring
+这里我一直超时的问题是，在更新左指针时，没有记录上一次更新右指针时已经记录的现有字符信息。
+
 *** 75 Color Search
 想一个小技巧，能在一次遍历中完成题目要求。可以考虑三个标志位，分别记录三个颜色的第一次出现的位置，在此基础上可以思考出正解。
 
