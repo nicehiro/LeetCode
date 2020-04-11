@@ -10,6 +10,7 @@
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 78 | [[https://leetcode-cn.com/problems/subsets/][Subsets]]                                        | [[subsets.py]]                  |
 | 77 | [[https://leetcode-cn.com/problems/combinations/][Combinations]]                                   | [[combine.py]]                  |
 | 76 | [[https://leetcode-cn.com/problems/minimum-window-substring/][Minimum Window Substring]]                       | [[min_window.py]]               |
 | 75 | [[https://leetcode-cn.com/problems/sort-colors/submissions/][Sort Color]]                                     | [[sort_color.py]]               |
