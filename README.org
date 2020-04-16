@@ -10,6 +10,7 @@
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 80 | [[https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/][Remove Duplicates from Sorted Arrays]]           | [[remove_duplicates2.py]]       |
 | 79 | [[https://leetcode-cn.com/problems/word-search/][Word Search]]                                    | [[word_search.py]]              |
 | 78 | [[https://leetcode-cn.com/problems/subsets/][Subsets]]                                        | [[subsets.py]]                  |
 | 77 | [[https://leetcode-cn.com/problems/combinations/][Combinations]]                                   | [[combine.py]]                  |
@@ -134,16 +135,21 @@ dp(i, j+1) \text{ or } dp(i+1, j) \text{ or } dp(i+1, j+1), & \text{if } p[j] ==
 
 *** 42 Trapping Rain Water
 思路：
-#+BEGIN_QUOTE
-res[i] = max(0, min(max(left_heights), max(right_heights)) - heights[i])
-#+END_QUOTE
+
+\begin{equation*}
+\begin{split}
+res[i] = \max(0, \min(\max(left), \max(right)) - heights[i])
+\end{split}
+\end{equation*}
 
 找左边、右边最大高度可以使用动态规划。
 
-#+BEGIN_QUOTE
-left_opt[i] = max(height[i-1], left_opt[i-1])
-right_opt[i] = max(height[i+1], right_opt[i+1])
-#+END_QUOTE
+\begin{equation*}
+\begin{split}
+left[i] &= \max(height[i-1], left[i-1])\\
+right[i] &= \max(height[i+1], right[i+1])
+\end{split}
+\end{equation*}
 
 *** 41 First Missing Positive
 这道题算是技巧题目，没有固定的题型。
