@@ -10,6 +10,7 @@
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 81 | [[https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/][Search in Rotated Sorted Arrays 2]]              | [[search_in_sorted_array2.py]]  |
 | 80 | [[https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/][Remove Duplicates from Sorted Arrays]]           | [[remove_duplicates2.py]]       |
 | 79 | [[https://leetcode-cn.com/problems/word-search/][Word Search]]                                    | [[word_search.py]]              |
 | 78 | [[https://leetcode-cn.com/problems/subsets/][Subsets]]                                        | [[subsets.py]]                  |
