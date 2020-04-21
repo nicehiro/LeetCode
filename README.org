@@ -10,6 +10,8 @@
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 84 | [[https://leetcode-cn.com/problems/largest-rectangle-in-histogram/][Largest Rectangle in Histogram]]                 | [[largest_rectangle_area.py]]   |
+| 83 | [[https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/][Remove Duplicates from Sorted Arrays 3]]         | [[remove_duplicates4.py]]       |
 | 82 | [[https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/][Remove Duplicates from Sorted Arrays 2]]         | [[remove_duplicates3.py]]       |
 | 81 | [[https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/][Search in Rotated Sorted Arrays 2]]              | [[search_in_sorted_array2.py]]  |
 | 80 | [[https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/][Remove Duplicates from Sorted Arrays]]           | [[remove_duplicates2.py]]       |
@@ -94,6 +96,7 @@
 |  1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                        | [[twosum.py]]                   |
 
 ** 思路笔记
+*** 84 Largest Rectangle in Histogram
 *** 76 Minimum Window Substring
 这里我一直超时的问题是，在更新左指针时，没有记录上一次更新右指针时已经记录的现有字符信息。
 
