@@ -4,12 +4,13 @@
 
 - Language: Python3
 
-- Solved: [72/-]
+- Solved: [85/-]
 
 ** Record
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 85 | [[https://leetcode-cn.com/problems/maximal-rectangle/][Maximal Rectangle]]                              | [[maximal_rectangle.py]]        |
 | 84 | [[https://leetcode-cn.com/problems/largest-rectangle-in-histogram/][Largest Rectangle in Histogram]]                 | [[largest_rectangle_area.py]]   |
 | 83 | [[https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/][Remove Duplicates from Sorted Arrays 3]]         | [[remove_duplicates4.py]]       |
 | 82 | [[https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/][Remove Duplicates from Sorted Arrays 2]]         | [[remove_duplicates3.py]]       |
@@ -96,6 +97,11 @@
 |  1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                        | [[twosum.py]]                   |
 
 ** 思路笔记
+*** 85 Maximal Rectangle
+如果我们将这个矩形按行来分割，那么，每行之上的数据都可以看作是 #84 中的一个矩形图问题。
+
+此方法看过题解，[[https://leetcode-cn.com/problems/maximal-rectangle/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-1-8/][详细通俗的思路分析]]。
+
 *** 84 Largest Rectangle in Histogram
 *** 76 Minimum Window Substring
 这里我一直超时的问题是，在更新左指针时，没有记录上一次更新右指针时已经记录的现有字符信息。

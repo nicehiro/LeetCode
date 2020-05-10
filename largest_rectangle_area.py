@@ -8,6 +8,18 @@ class Solution:
         # return self.DC(0, len(heights))
         return self.STACK()
 
+    def direct(self):
+        area = 0
+        for i in range(len(self.heights)):
+            for j in range(i, len(self.heights)):
+                # find miniest height between (i, j)
+                min_h = self.heights[i]
+                for h in range(i, j):
+                    min_h = self.heights[h] if min_h > self.heights[h] else min_h
+                t = min_h * (j - i + 1)
+                area = t if t > area else area
+        return area
+
     def find_min_position(self, l, r):
         if l >= r:
             return -1
