@@ -10,6 +10,7 @@
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 86 | [[https://leetcode-cn.com/problems/partition-list/][Partition List]]                                 | [[partition_list.py]]           |
 | 85 | [[https://leetcode-cn.com/problems/maximal-rectangle/][Maximal Rectangle]]                              | [[maximal_rectangle.py]]        |
 | 84 | [[https://leetcode-cn.com/problems/largest-rectangle-in-histogram/][Largest Rectangle in Histogram]]                 | [[largest_rectangle_area.py]]   |
 | 83 | [[https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/][Remove Duplicates from Sorted Arrays 3]]         | [[remove_duplicates4.py]]       |
