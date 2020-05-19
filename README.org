@@ -10,6 +10,8 @@
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 89 | [[https://leetcode-cn.com/problems/gray-code/][Gray Code]]                                      | [[gray_code.py]]                |
+| 88 | [[https://leetcode-cn.com/problems/merge-sorted-array/][Merge Sorted Array]]                             | [[merge_sorted_array.py]]       |
 | 86 | [[https://leetcode-cn.com/problems/partition-list/][Partition List]]                                 | [[partition_list.py]]           |
 | 85 | [[https://leetcode-cn.com/problems/maximal-rectangle/][Maximal Rectangle]]                              | [[maximal_rectangle.py]]        |
 | 84 | [[https://leetcode-cn.com/problems/largest-rectangle-in-histogram/][Largest Rectangle in Histogram]]                 | [[largest_rectangle_area.py]]   |
