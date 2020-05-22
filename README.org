@@ -10,6 +10,7 @@
 
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
+| 92 | [[https://leetcode-cn.com/problems/reverse-linked-list-ii/][Reverse Linked List 2]]                          | [[reverse_linked_list.py]]      |
 | 90 | [[https://leetcode-cn.com/problems/subsets-ii/][Subsets 2]]                                      | [[subsets_2.py]]                |
 | 89 | [[https://leetcode-cn.com/problems/gray-code/][Gray Code]]                                      | [[gray_code.py]]                |
 | 88 | [[https://leetcode-cn.com/problems/merge-sorted-array/][Merge Sorted Array]]                             | [[merge_sorted_array.py]]       |
