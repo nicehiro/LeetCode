@@ -11,6 +11,7 @@
 |  # | Title                                          | Solution                    |
 |----+------------------------------------------------+-----------------------------|
 | 92 | [[https://leetcode-cn.com/problems/reverse-linked-list-ii/][Reverse Linked List 2]]                          | [[reverse_linked_list.py]]      |
+| 91 | [[https://leetcode-cn.com/problems/decode-ways/][Decode Ways]]                                    | [[decode_ways.py]]              |
 | 90 | [[https://leetcode-cn.com/problems/subsets-ii/][Subsets 2]]                                      | [[subsets_2.py]]                |
 | 89 | [[https://leetcode-cn.com/problems/gray-code/][Gray Code]]                                      | [[gray_code.py]]                |
 | 88 | [[https://leetcode-cn.com/problems/merge-sorted-array/][Merge Sorted Array]]                             | [[merge_sorted_array.py]]       |
@@ -102,6 +103,19 @@
 |  1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                        | [[twosum.py]]                   |
 
 ** 思路笔记
+*** 91 Decode Ways
+本题解法参考自 [[https://leetcode-cn.com/problems/decode-ways/solution/c-wo-ren-wei-hen-jian-dan-zhi-guan-de-jie-fa-by-pr/][algos]] 。
+
+另外，我自己也有一种 DP 的解法，但是和上诉方法相比实现起来太麻烦了。
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 80%
+[[file:../img/91_1.png]]
+#+END_CENTER
+#+BEGIN_CENTER
+#+ATTR_HTML: :width 80%
+[[file:../img/91_2.png]]
+#+END_CENTER
+
 *** 85 Maximal Rectangle
 如果我们将这个矩形按行来分割，那么，每行之上的数据都可以看作是 #84 中的一个矩形图问题。
 
