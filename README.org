@@ -10,6 +10,7 @@
 
 |  # | Title                                          | Solution                      |
 |----+------------------------------------------------+-------------------------------|
+| 98 | [[https://leetcode-cn.com/problems/validate-binary-search-tree/][Validate Binary Search Tree]]                    | [[is_valid_bst.py]]               |
 | 97 | [[https://leetcode-cn.com/problems/interleaving-string/][Interleaving String]]                            | [[interleaving_string.py]]        |
 | 96 | [[https://leetcode-cn.com/problems/unique-binary-search-trees/][Unique Binary Search Trees]]                     | [[unique_binary_search_tree2.py]] |
 | 95 | [[https://leetcode-cn.com/problems/unique-binary-search-trees-ii/][Unique Binary Search Trees2]]                    | [[unique_binary_search_tree.py]]  |
