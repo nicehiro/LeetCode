@@ -10,6 +10,8 @@
 
 |   # | Title                                          | Solution                      | Times |
 |-----+------------------------------------------------+-------------------------------+-------|
+| 102 | [[https://leetcode-cn.com/problems/binary-tree-level-order-traversal/][LevelOrder]]                                     | [[level_order.py]]                |     1 |
+| 101 | [[https://leetcode-cn.com/problems/symmetric-tree/][Symmetric Tree]]                                 | [[is_symmetric.py]]               |       |
 | 100 | [[https://leetcode-cn.com/problems/same-tree/][Same Tree]]                                      | [[same_tree.py]]                  |     3 |
 |  99 | [[https://leetcode-cn.com/problems/recover-binary-search-tree/][Recover Binary Search Tree]]                     | [[recover_bst.py]]                |     1 |
 |  98 | [[https://leetcode-cn.com/problems/validate-binary-search-tree/][Validate Binary Search Tree]]                    | [[is_valid_bst.py]]               |     8 |
