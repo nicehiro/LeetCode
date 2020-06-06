@@ -10,6 +10,8 @@
 
 |   # | Title                                          | Solution                      | Times |
 |-----+------------------------------------------------+-------------------------------+-------|
+| 104 | [[https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/][Maximum Depth of Binary Tree]]                   | [[max_depth.py]]                  |     1 |
+| 103 | [[https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/][Binary Tree Zigzag Level Order Traversal]]       | [[zigzag_order.py]]               |     1 |
 | 102 | [[https://leetcode-cn.com/problems/binary-tree-level-order-traversal/][LevelOrder]]                                     | [[level_order.py]]                |     1 |
 | 101 | [[https://leetcode-cn.com/problems/symmetric-tree/][Symmetric Tree]]                                 | [[is_symmetric.py]]               |       |
 | 100 | [[https://leetcode-cn.com/problems/same-tree/][Same Tree]]                                      | [[same_tree.py]]                  |     3 |
