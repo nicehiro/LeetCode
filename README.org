@@ -10,6 +10,7 @@
 
 |   # | Title                                                      | Solution                      | Times |
 |-----+------------------------------------------------------------+-------------------------------+-------|
+| 109 | [[https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/][Convert Sorted List to Binary Search Tree]]                  | [[sorted_linked_list_to_bst.py]]  |     1 |
 | 108 | [[https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/][Convert Sorted Array to Binary Search Tree]]                 | [[sorted_array_to_bst.py]]        |     1 |
 | 107 | [[https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/][Binary Tree Level Order Traversal II]]                       | [[level_order_bottom.py]]         |     1 |
 | 106 | [[https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/][Construct Binary Tree from Inorder and Postorder Traversal]] | [[build_tree2.py]]                |     1 |
@@ -119,6 +120,13 @@
 |   1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                                    | [[twosum.py]]                     |       |
 
 ** 思路笔记
+*** 109 Convert Sorted List to Binary Search Tree
+自己想到的方法挺一般的：先将单链表遍历一遍，转换为数组，可以随机访问每个元素，然后再构造二叉搜索树。
+
+查看题解之后，官方第三个题解思路确实新颖：[[https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/solution/you-xu-lian-biao-zhuan-huan-er-cha-sou-suo-shu-by-/][有序链表转二叉搜索树]]
+
+它利用了二叉树的中序遍历即是一个有序数组的性质，先构建左子树，然后构建根节点，最后构建右子树，递归的完成了从有序链表到二叉搜索树的转换。
+
 *** 99 Recover Binary Search Tree
 因为二叉搜索树的中序排序数组是有序数组，因此，这个问题可以分解为两个子问题：
 1. 中序排序
