@@ -10,6 +10,7 @@
 
 |   # | Title                                                      | Solution                      | Times |
 |-----+------------------------------------------------------------+-------------------------------+-------|
+| 111 | [[https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/][Minimum Depth of Binary Tree]]                               | [[min_depth.py]]                  |     3 |
 | 110 | [[https://leetcode-cn.com/problems/balanced-binary-tree/][Balanced Binary Tree]]                                       | [[is_balanced.py]]                |     1 |
 | 109 | [[https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/][Convert Sorted List to Binary Search Tree]]                  | [[sorted_linked_list_to_bst.py]]  |     1 |
 | 108 | [[https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/][Convert Sorted Array to Binary Search Tree]]                 | [[sorted_array_to_bst.py]]        |     1 |
