@@ -10,6 +10,7 @@
 
 |   # | Title                                                      | Solution                      | Times |
 |-----+------------------------------------------------------------+-------------------------------+-------|
+| 114 | [[https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/][Flatten Binary Tree to Linked List]]                         | [[flatten_bst.py]]                |     1 |
 | 113 | [[https://leetcode-cn.com/problems/path-sum-ii/][Path Sum II]]                                                | [[find_path_sum.py]]              |     1 |
 | 112 | [[https://leetcode-cn.com/problems/path-sum/][Path Sum]]                                                   | [[has_path_sum.py]]               |     5 |
 | 111 | [[https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/][Minimum Depth of Binary Tree]]                               | [[min_depth.py]]                  |     3 |
@@ -124,6 +125,13 @@
 |   1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                                    | [[twosum.py]]                     |       |
 
 ** 思路笔记
+*** 114 Flatten Binary Tree to Linked Tree
+只想到了最直接的方法，就是先序遍历然后构建单链表。从题解中学到了两种方法：
+1. 特殊的后序遍历
+如果在先序遍历的基础上直接原地改动链表，会丢失原链表的右子树，所以我们采用从后向前遍历的方法原地改动链表。先序遍历的顺序为中左右，其逆向为右左中，是一种特殊的后序遍历。因此可以按照这个遍历，每次遍历到新节点，使新节点的右连接指向上一个节点。
+2. 保留右子树的引用
+既然先序遍历可能会丢失右子树，那每次就保存右子树到新树的最右节点上即可。
+
 *** 109 Convert Sorted List to Binary Search Tree
 自己想到的方法挺一般的：先将单链表遍历一遍，转换为数组，可以随机访问每个元素，然后再构造二叉搜索树。
 
