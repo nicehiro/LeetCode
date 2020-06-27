@@ -10,6 +10,7 @@
 
 |   # | Title                                                      | Solution                      | Times |
 |-----+------------------------------------------------------------+-------------------------------+-------|
+| 124 | [[https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/][Binary Tree Maximum Path Sum]]                               | [[max_path_sum.py]]               |     3 |
 | 123 | [[https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/][Best Time to Buy and Sell Stock III]]                        | [[max_profit3.py]]                |     3 |
 | 122 | [[https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/][Best Time to Buy and Sell Stock II]]                         | [[max_profit2.py]]                |     2 |
 | 121 | [[https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/][Best Time to Buy and Sell Stock]]                            | [[max_profit.py]]                 |     1 |
@@ -134,6 +135,17 @@
 |   1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                                    | [[twosum.py]]                     |       |
 
 ** 思路笔记
+*** 124 Binary Tree Maximum Path Sum
+本题解答参考官方题解： [[https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/solution/er-cha-shu-zhong-de-zui-da-lu-jing-he-by-leetcode-/][二叉树中的最大路径和]]
+
+几个抽象的地方：
+1. 路径和。从树的一个节点连接到另一个节点所结果的节点权值之和。
+2. 树的最大路径和。树中所有路径和的最大值。
+
+代码中需要注意的点：
+1. =max_sum= 设定为 =-inf=
+2. =gain= 的含义为：此节点能向上做多少贡献，因此，存在两种路径，左中和右中，取最大
+
 *** 114 Flatten Binary Tree to Linked Tree
 只想到了最直接的方法，就是先序遍历然后构建单链表。从题解中学到了两种方法：
 1. 特殊的后序遍历
