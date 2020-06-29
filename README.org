@@ -10,6 +10,7 @@
 
 |   # | Title                                                      | Solution                      | Times |
 |-----+------------------------------------------------------------+-------------------------------+-------|
+| 126 | [[https://leetcode-cn.com/problems/word-ladder-ii/][Word Ladder II]]                                             | [[word_ladder.py]]                |     4 |
 | 125 | [[https://leetcode-cn.com/problems/valid-palindrome/][Valid Palindrome]]                                           | [[is_palindrome_2.py]]            |     2 |
 | 124 | [[https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/][Binary Tree Maximum Path Sum]]                               | [[max_path_sum.py]]               |     3 |
 | 123 | [[https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/][Best Time to Buy and Sell Stock III]]                        | [[max_profit3.py]]                |     3 |
@@ -136,6 +137,11 @@
 |   1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                                    | [[twosum.py]]                     |       |
 
 ** 思路笔记
+*** 126 Word Ladder II
+BFS 方法参考 [[https://leetcode-cn.com/problems/word-ladder-ii/solution/dan-ci-jie-long-ii-by-leetcode-solution/][官方题解]]
+
+最开始直接使用递归的方法去做的，看了题解才发现可以把这个问题转化为树的广度遍历问题。非常有趣。但我的实现不知道哪里还有问题，一直超时，以后有时间再琢磨吧。
+
 *** 124 Binary Tree Maximum Path Sum
 本题解答参考官方题解： [[https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/solution/er-cha-shu-zhong-de-zui-da-lu-jing-he-by-leetcode-/][二叉树中的最大路径和]]
 
@@ -266,3 +272,9 @@ dp[t, p - 1]
 \]
 
 如果使用迭代算法需要二维数组保存中间结果。
+
+** 未完成的问题
+*** 超时
+- 126
+
+*** 不会
