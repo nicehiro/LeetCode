@@ -10,6 +10,8 @@
 
 |   # | Title                                                      | Solution                      | Times |
 |-----+------------------------------------------------------------+-------------------------------+-------|
+| 129 | [[https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/][Sum Root to Leaf Numbers]]                                   | [[sum_root_of_numbers.py]]        |     1 |
+| 128 | [[https://leetcode-cn.com/problems/longest-consecutive-sequence/][Longest Consecutive Sequence]]                               | [[longest_consecutive.py]]        |     1 |
 | 126 | [[https://leetcode-cn.com/problems/word-ladder-ii/][Word Ladder II]]                                             | [[word_ladder.py]]                |     4 |
 | 125 | [[https://leetcode-cn.com/problems/valid-palindrome/][Valid Palindrome]]                                           | [[is_palindrome_2.py]]            |     2 |
 | 124 | [[https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/][Binary Tree Maximum Path Sum]]                               | [[max_path_sum.py]]               |     3 |
@@ -137,6 +139,9 @@
 |   1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                                    | [[twosum.py]]                     |       |
 
 ** 思路笔记
+*** 128 Longest Consecutive Sequence
+参考 [[https://leetcode-cn.com/problems/longest-consecutive-sequence/solution/zui-chang-lian-xu-xu-lie-by-leetcode-solution/][官方题解]]
+
 *** 126 Word Ladder II
 BFS 方法参考 [[https://leetcode-cn.com/problems/word-ladder-ii/solution/dan-ci-jie-long-ii-by-leetcode-solution/][官方题解]]
 
@@ -278,3 +283,6 @@ dp[t, p - 1]
 - 126
 
 *** 不会
+
+*** 暂时不想做
+- 127
