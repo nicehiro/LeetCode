@@ -10,6 +10,7 @@
 
 |   # | Title                                                      | Solution                      | Times |
 |-----+------------------------------------------------------------+-------------------------------+-------|
+| 130 | [[https://leetcode-cn.com/problems/surrounded-regions/][Surrounded Regions]]                                         | [[surrounded_regions.py]]         |     3 |
 | 129 | [[https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/][Sum Root to Leaf Numbers]]                                   | [[sum_root_of_numbers.py]]        |     1 |
 | 128 | [[https://leetcode-cn.com/problems/longest-consecutive-sequence/][Longest Consecutive Sequence]]                               | [[longest_consecutive.py]]        |     1 |
 | 126 | [[https://leetcode-cn.com/problems/word-ladder-ii/][Word Ladder II]]                                             | [[word_ladder.py]]                |     4 |
@@ -139,6 +140,11 @@
 |   1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                                    | [[twosum.py]]                     |       |
 
 ** 思路笔记
+*** 130 Surrounded Regions
+技巧：从边缘开始检测与 ‘O’ 相关的 ‘O’ 元素，并在原表中标记为 ‘U’，这些点是不会发生变化的。
+
+最后遍历一次元素，将所有 ‘U’ 元素更改为 ‘O’，将所有 ‘O’ 元素更改为 ‘X’ 即可。
+
 *** 128 Longest Consecutive Sequence
 参考 [[https://leetcode-cn.com/problems/longest-consecutive-sequence/solution/zui-chang-lian-xu-xu-lie-by-leetcode-solution/][官方题解]]
 
