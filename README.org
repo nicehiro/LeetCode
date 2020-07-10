@@ -10,6 +10,7 @@
 
 |   # | Title                                                      | Solution                      | Times |
 |-----+------------------------------------------------------------+-------------------------------+-------|
+| 136 | [[https://leetcode-cn.com/problems/single-number/][Single Number]]                                              | [[single_number.py]]              |     4 |
 | 135 | [[https://leetcode-cn.com/problems/candy/][Candy]]                                                      | [[candy.py]]                      |     4 |
 | 134 | [[https://leetcode-cn.com/problems/gas-station/][Gas Station]]                                                | [[gas_station.py]]                |     1 |
 | 133 | [[https://leetcode-cn.com/problems/clone-graph/][Clone Graph]]                                                | [[clone_graph.py]]                |     1 |
