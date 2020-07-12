@@ -10,6 +10,7 @@
 
 |   # | Title                                                      | Solution                      | Times |
 |-----+------------------------------------------------------------+-------------------------------+-------|
+| 138 | [[https://leetcode-cn.com/problems/copy-list-with-random-pointer/][Copy List with Random Pointer]]                              | [[copy_random_list.py]]           |     2 |
 | 137 | [[https://leetcode-cn.com/problems/single-number-ii/][Single Number II]]                                           | [[single_number2.py]]             |     1 |
 | 136 | [[https://leetcode-cn.com/problems/single-number/][Single Number]]                                              | [[single_number.py]]              |     4 |
 | 135 | [[https://leetcode-cn.com/problems/candy/][Candy]]                                                      | [[candy.py]]                      |     4 |
