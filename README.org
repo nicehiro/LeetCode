@@ -10,6 +10,7 @@
 
 |   # | Title                                                      | Solution                      | Times |
 |-----+------------------------------------------------------------+-------------------------------+-------|
+| 142 | [[https://leetcode-cn.com/problems/linked-list-cycle-ii/submissions/][Linked List Cycle II]]                                       | [[list_cycle2.py]]                |     1 |
 | 141 | [[https://leetcode-cn.com/problems/linked-list-cycle/][Linked List Cycle]]                                          | [[list_cycle.py]]                 |     1 |
 | 140 | [[https://leetcode-cn.com/problems/word-break-ii/][Word Break II]]                                              | [[word_break2.py]]                |     N |
 | 139 | [[https://leetcode-cn.com/problems/word-break/][Word Break]]                                                 | [[word_break.py]]                 |     1 |
