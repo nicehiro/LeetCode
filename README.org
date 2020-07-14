@@ -10,6 +10,7 @@
 
 |   # | Title                                                      | Solution                      | Times |
 |-----+------------------------------------------------------------+-------------------------------+-------|
+| 141 | [[https://leetcode-cn.com/problems/linked-list-cycle/][Linked List Cycle]]                                          | [[list_cycle.py]]                 |     1 |
 | 140 | [[https://leetcode-cn.com/problems/word-break-ii/][Word Break II]]                                              | [[word_break2.py]]                |     N |
 | 139 | [[https://leetcode-cn.com/problems/word-break/][Word Break]]                                                 | [[word_break.py]]                 |     1 |
 | 138 | [[https://leetcode-cn.com/problems/copy-list-with-random-pointer/][Copy List with Random Pointer]]                              | [[copy_random_list.py]]           |     2 |
@@ -150,6 +151,9 @@
 |   1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                                    | [[twosum.py]]                     |       |
 
 ** 思路笔记
+*** 141 Linked List Cycle
+简单的方法非常容易实现，而难一点的方法如果你考过研，啃过王道那本数据结构（如果我没记错的话），这种方法在里面出现过。思路就是利用快慢指针，如果有环，那么快指针迟早可以从后面超过慢指针。
+
 *** 130 Surrounded Regions
 技巧：从边缘开始检测与 ‘O’ 相关的 ‘O’ 元素，并在原表中标记为 ‘U’，这些点是不会发生变化的。
 
