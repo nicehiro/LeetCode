@@ -10,6 +10,7 @@
 
 |   # | Title                                                      | Solution                      | Times |
 |-----+------------------------------------------------------------+-------------------------------+-------|
+| 147 | [[https://leetcode-cn.com/problems/insertion-sort-list/][Insertion Sort List]]                                        | [[insertion_sort_list.py]]        |     1 |
 | 146 | [[https://leetcode-cn.com/problems/lru-cache/][LRU Cache]]                                                  | [[lru_cache.py]]                  |     4 |
 | 145 | [[https://leetcode-cn.com/problems/binary-tree-postorder-traversal/][Binary Tree Postorder Traversal]]                            | [[postorder_traversal.py]]        |     1 |
 | 144 | [[https://leetcode-cn.com/problems/binary-tree-preorder-traversal/][Binary Tree Preorder Traversal]]                             | [[preorder_traversal.py]]         |     1 |
@@ -156,6 +157,11 @@
 |   1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                                    | [[twosum.py]]                     |       |
 
 ** 思路笔记
+*** 147 Insertion Sort List
+由于链表的特殊性，在交换两个节点的时候需要用到相关节点的上一个节点，因此我们在排序过程中可以使用“上一个节点的 next 节点”来进行比较，可以方便的进行交换。
+
+比较不认可题解中部分使用 =tail= 指针的方式来加速，这样违背了此题的出题意愿。
+
 *** 143 Reorder List
 - 使用快慢指针找到中间节点
 - 线性时间内逆转链表
