@@ -10,6 +10,7 @@
 
 |   # | Title                                                      | Solution                      | Times |
 |-----+------------------------------------------------------------+-------------------------------+-------|
+| 149 | [[https://leetcode-cn.com/problems/max-points-on-a-line/][Max Points on a Line]]                                       | [[max_points.py]]                 |     4 |
 | 148 | [[https://leetcode-cn.com/problems/sort-list/][Sort List]]                                                  | [[sort_list.py]]                  |     2 |
 | 147 | [[https://leetcode-cn.com/problems/insertion-sort-list/][Insertion Sort List]]                                        | [[insertion_sort_list.py]]        |     1 |
 | 146 | [[https://leetcode-cn.com/problems/lru-cache/][LRU Cache]]                                                  | [[lru_cache.py]]                  |     4 |
@@ -158,6 +159,11 @@
 |   1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                                    | [[twosum.py]]                     |       |
 
 ** 思路笔记
+*** 149 Max Points on a Line
+用最笨的方法穷举可以做出来……
+题目不难，但有点恶心人，尤其是测试案例中还有小数，最简单的方法是直接转成分数去计算。
+测试案例通过为 39/41，不想去尝试了。
+
 *** 147 Insertion Sort List
 由于链表的特殊性，在交换两个节点的时候需要用到相关节点的上一个节点，因此我们在排序过程中可以使用“上一个节点的 next 节点”来进行比较，可以方便的进行交换。
 
@@ -325,3 +331,4 @@ dp[t, p - 1]
 
 *** 暂时不想做
 - 127
+- 149
