@@ -10,6 +10,7 @@
 
 |   # | Title                                                      | Solution                      | Times |
 |-----+------------------------------------------------------------+-------------------------------+-------|
+| 150 | [[https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/][Evaluate Reverse Polish Notation]]                           | [[eval_epn.py]]                   |     4 |
 | 149 | [[https://leetcode-cn.com/problems/max-points-on-a-line/][Max Points on a Line]]                                       | [[max_points.py]]                 |     4 |
 | 148 | [[https://leetcode-cn.com/problems/sort-list/][Sort List]]                                                  | [[sort_list.py]]                  |     2 |
 | 147 | [[https://leetcode-cn.com/problems/insertion-sort-list/][Insertion Sort List]]                                        | [[insertion_sort_list.py]]        |     1 |
