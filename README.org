@@ -10,6 +10,7 @@
 
 |   # | Title                                                      | Solution                      | Times |
 |-----+------------------------------------------------------------+-------------------------------+-------|
+| 152 | [[https://leetcode-cn.com/problems/maximum-product-subarray/][Maximum Product Subarray]]                                   | [[max_product.py]]                |     4 |
 | 151 | [[https://leetcode-cn.com/problems/reverse-words-in-a-string/][Reverse Words in a String]]                                  | [[reverse_words.py]]              |     3 |
 | 150 | [[https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/][Evaluate Reverse Polish Notation]]                           | [[eval_epn.py]]                   |     4 |
 | 149 | [[https://leetcode-cn.com/problems/max-points-on-a-line/][Max Points on a Line]]                                       | [[max_points.py]]                 |     4 |
@@ -161,6 +162,24 @@
 |   1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                                    | [[twosum.py]]                     |       |
 
 ** 思路笔记
+*** 152 Maximum Product Subarray
+最开始想到的 DP 转移方程为：
+\begin{equation*}
+dp(e) = \max \begin{case}
+dp(e-1), \\
+nums[e-1], \\
+connected_product_from_nums[e-1]
+\end{case}
+\end{equation*}
+
+但其中计算 =connected_product_from_nums= 仍然需要 =O(n^2)=
+
+题解中提出的方法是，对当前位置的数进行分类讨论，如果当前位置是正数，那么需要前面乘积最大的正数；如果当前位置是负数，需要前面乘积最小（最好是负数）的负数。因此可以有两个 DP 转移方程。
+\begin{equation*}
+f_{\max}(i) = \max(f_{\max}(i-1) \times a_i, f_{\min}(i-1) \times a_i, a_i)
+f_{\min}(i) = \min(f_{\max}(i-1) \times a_i, f_{\min}(i-1) \times a_i, a_i)
+\end{equation*}
+
 *** 149 Max Points on a Line
 用最笨的方法穷举可以做出来……
 题目不难，但有点恶心人，尤其是测试案例中还有小数，最简单的方法是直接转成分数去计算。
