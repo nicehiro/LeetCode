@@ -10,6 +10,7 @@
 
 |   # | Title                                                      | Solution                      | Times |
 |-----+------------------------------------------------------------+-------------------------------+-------|
+| 154 | [[https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/][Find Minimum in Rotated Sorted Array II]]                    | [[find_min_in_rotated_array2.py]] |     3 |
 | 153 | [[https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/][Find Minimum in Rotated Sorted Array]]                       | [[find_min_in_rotated_array.py]]  |     1 |
 | 152 | [[https://leetcode-cn.com/problems/maximum-product-subarray/][Maximum Product Subarray]]                                   | [[max_product.py]]                |     4 |
 | 151 | [[https://leetcode-cn.com/problems/reverse-words-in-a-string/][Reverse Words in a String]]                                  | [[reverse_words.py]]              |     3 |
