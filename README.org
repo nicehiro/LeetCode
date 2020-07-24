@@ -167,11 +167,11 @@
 *** 152 Maximum Product Subarray
 最开始想到的 DP 转移方程为：
 \begin{equation*}
-dp(e) = \max \begin{case}
+dp(e) = \max \begin{cases}
 dp(e-1), \\
 nums[e-1], \\
-connected_product_from_nums[e-1]
-\end{case}
+\text{connected product from nums}[e-1]
+\end{cases}
 \end{equation*}
 
 但其中计算 =connected_product_from_nums= 仍然需要 =O(n^2)=
@@ -179,6 +179,8 @@ connected_product_from_nums[e-1]
 题解中提出的方法是，对当前位置的数进行分类讨论，如果当前位置是正数，那么需要前面乘积最大的正数；如果当前位置是负数，需要前面乘积最小（最好是负数）的负数。因此可以有两个 DP 转移方程。
 \begin{equation*}
 f_{\max}(i) = \max(f_{\max}(i-1) \times a_i, f_{\min}(i-1) \times a_i, a_i)
+\end{equation*}
+\begin{equation*}
 f_{\min}(i) = \min(f_{\max}(i-1) \times a_i, f_{\min}(i-1) \times a_i, a_i)
 \end{equation*}
 
