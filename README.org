@@ -10,6 +10,8 @@
 
 |   # | Title                                                      | Solution                      | Times |
 |-----+------------------------------------------------------------+-------------------------------+-------|
+| 162 | [[https://leetcode-cn.com/problems/find-peak-element/][Find Peak Element]]                                          | [[find_peak_element.py]]          |     1 |
+| 160 | [[https://leetcode-cn.com/problems/intersection-of-two-linked-lists/][Intersection of Two Linked Lists]]                           | [[get_intersection_node.py]]      |     1 |
 | 155 | [[https://leetcode-cn.com/problems/min-stack/][Min Stack]]                                                  | [[min_stack.py]]                  |     1 |
 | 154 | [[https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/][Find Minimum in Rotated Sorted Array II]]                    | [[find_min_in_rotated_array2.py]] |     3 |
 | 153 | [[https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/][Find Minimum in Rotated Sorted Array]]                       | [[find_min_in_rotated_array.py]]  |     1 |
@@ -165,6 +167,11 @@
 |   1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                                    | [[twosum.py]]                     |       |
 
 ** 思路笔记
+*** 160 Intersection of Two Linked Lists
+最容易想到的方法是利用哈希表，遍历存储节点，时间复杂度 =O(m+n)= ，空间复杂度 =O(m)= 。
+
+官方题解给出了空间复杂度只需要 =O(1)= 方法，其思想为： =p_a= 指针遍历 =a= 独有 + 共有 + =b= 独有； =p_b= 指针遍历 =b= 独有 + 共有 + =a= 独有。二者遍历过的节点数相同。
+
 *** 152 Maximum Product Subarray
 最开始想到的 DP 转移方程为：
 \begin{equation*}
