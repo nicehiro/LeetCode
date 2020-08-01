@@ -10,6 +10,7 @@
 
 |   # | Title                                                      | Solution                      | Times |
 |-----+------------------------------------------------------------+-------------------------------+-------|
+| 166 | [[https://leetcode-cn.com/problems/fraction-to-recurring-decimal/][Fraction to Decimal]]                                        | [[fraction_to_decimal.py]]        |    11 |
 | 165 | [[https://leetcode-cn.com/problems/compare-version-numbers/][Compare Version Numbers]]                                    | [[compare_version.py]]            |     1 |
 | 164 | [[https://leetcode-cn.com/problems/maximum-gap/][Maximum Gap]]                                                | [[maximum_gap.py]]                |     1 |
 | 162 | [[https://leetcode-cn.com/problems/find-peak-element/][Find Peak Element]]                                          | [[find_peak_element.py]]          |     1 |
