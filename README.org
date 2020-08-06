@@ -10,6 +10,9 @@
 
 |   # | Title                                                      | Solution                      | Times |
 |-----+------------------------------------------------------------+-------------------------------+-------|
+| 172 | [[https://leetcode-cn.com/problems/factorial-trailing-zeroes/][Factorial Trailing Zeros]]                                   | [[trailing_zeros.py]]             |     2 |
+| 171 | [[https://leetcode-cn.com/problems/excel-sheet-column-number/][Excel Sheet Column Number]]                                  | [[title_to_number.py]]            |     1 |
+| 169 | [[https://leetcode-cn.com/problems/majority-element/][Majority Elementt]]                                          | [[majority_element.py]]           |     1 |
 | 168 | [[https://leetcode-cn.com/problems/excel-sheet-column-title/][Excel Sheet Column Title]]                                   | [[convert_to_title.py]]           |     2 |
 | 167 | [[https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/][Two Sum II - Input array is sorted]]                         | [[two_sum_2.py]]                  |     2 |
 | 166 | [[https://leetcode-cn.com/problems/fraction-to-recurring-decimal/][Fraction to Decimal]]                                        | [[fraction_to_decimal.py]]        |    11 |
@@ -172,6 +175,20 @@
 |   1 | [[https://leetcode-cn.com/problems/two-sum/][Two Sum]]                                                    | [[twosum.py]]                     |       |
 
 ** 思路笔记
+*** 172 Factorial Trailing Zeros
+这道题竟然是简单，是我太笨了吗？？？（要求时间复杂度 O(logn)）
+
+**** 最简单的方法
+计算阶乘，再计算 0 的个数。如果统计乘法的时间和空间复杂度，该方法的时间复杂度为 =< O(n^2)= ，空间复杂度为 =O(logn!)= 。
+
+**** Trick1
+统计计算因子 2 和 5。末尾 0 的个数和相乘乘数的因子中 5 和 2 的对数有关，有几对 5 和 2，就有多少个 0。
+
+计算阶乘时，可以知道：5 的个数要远远少于 2 的个数，所以我们可以只统计 5 的个数即可。这种方法的时间复杂度为 =O(n)= ，空间复杂度为 =O(1)= 。
+
+**** Trick2
+一个个相加太费劲了！
+
 *** 160 Intersection of Two Linked Lists
 最容易想到的方法是利用哈希表，遍历存储节点，时间复杂度 =O(m+n)= ，空间复杂度 =O(m)= 。
 
