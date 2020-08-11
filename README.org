@@ -10,6 +10,7 @@
 
 |   # | Title                                                      | Solution                      | Times |
 |-----+------------------------------------------------------------+-------------------------------+-------|
+| 179 | [[https://leetcode-cn.com/problems/largest-number/][Largest Number]]                                             | [[largest_number.py]]             |     3 |
 | 174 | [[https://leetcode-cn.com/problems/dungeon-game/][Dungeon Game]]                                               | [[calc_min_hp.py]]                |     2 |
 | 173 | [[https://leetcode-cn.com/problems/binary-search-tree-iterator/][Binary Search Tree Iterator]]                                | [[bst_iterator.py]]               |     1 |
 | 172 | [[https://leetcode-cn.com/problems/factorial-trailing-zeroes/][Factorial Trailing Zeros]]                                   | [[trailing_zeros.py]]             |     2 |
