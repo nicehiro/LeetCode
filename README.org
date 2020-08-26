@@ -10,6 +10,7 @@
 
 |   # | Title                                                      | Solution                      | Times |
 |-----+------------------------------------------------------------+-------------------------------+-------|
+| 180 | [[https://leetcode-cn.com/problems/repeated-dna-sequences/][Repeated DNA Sequences]]                                     | [[find_repeated_dna.py]]          |     3 |
 | 179 | [[https://leetcode-cn.com/problems/largest-number/][Largest Number]]                                             | [[largest_number.py]]             |     3 |
 | 174 | [[https://leetcode-cn.com/problems/dungeon-game/][Dungeon Game]]                                               | [[calc_min_hp.py]]                |     2 |
 | 173 | [[https://leetcode-cn.com/problems/binary-search-tree-iterator/][Binary Search Tree Iterator]]                                | [[bst_iterator.py]]               |     1 |
