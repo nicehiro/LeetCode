@@ -1,5 +1,9 @@
 .vscode/
 .idea/
+.direnv/
 __pycache__/
 venv/
 ltximg/
+build/
+*.dSYM/
+.DS_Store

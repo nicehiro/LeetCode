@@ -12,7 +12,9 @@
 |------+-----------------------------------------------------------------+-------------------------------+-------|
 | 1046 | [[https://leetcode-cn.com/problems/last-stone-weight/][Last Stone Weight]]                                          | [[last_stone_weight.py]]          |     1 |
 |  830 | [[https://leetcode-cn.com/problems/positions-of-large-groups/][Positions of Large Groups]]                                  | [[large_group_positions.py]]      |     2 |
+|  684 | [[https://leetcode-cn.com/problems/redundant-connection/][Redundant Connection]]                                       | [[find_redundant_connection.py]]  |     2 |
 |  605 | [[https://leetcode-cn.com/problems/can-place-flowers/][Can Place Flowers]]                                          | [[can_place_flowers.py]]          |     3 |
+|  561 | [[https://leetcode-cn.com/problems/array-partition-i/][Array Partition I]]                                          | [[array_partition_1.py]]          |     1 |
 |  547 | [[https://leetcode-cn.com/problems/number-of-provinces/][Number of Provinces]]                                        | [[find_circle_num.py]]            |     2 |
 |  509 | [[https://leetcode-cn.com/problems/fibonacci-number/][Fibonacci Number]]                                           | [[fibonacci_number.py]]           |     1 |
 |  435 | [[https://leetcode-cn.com/problems/non-overlapping-intervals/][Non-overlapping Intervals]]                                  | [[non_overlapping_intervals.py]]  |     1 |
