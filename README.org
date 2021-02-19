@@ -8,6 +8,7 @@
 |    # | Title                                                           | Solution                        | Times |
 |------+-----------------------------------------------------------------+---------------------------------+-------|
 | 1046 | [[https://leetcode-cn.com/problems/last-stone-weight/][Last Stone Weight]]                                          | [[last_stone_weight.py]]            |     1 |
+| 1004 | [[https://leetcode-cn.com/problems/max-consecutive-ones-iii/][Max Consecutive Ones III]]                                   | [[max_consecutive_ones.py]]         |     3 |
 |  995 | [[https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/][Minimum Number of K Consecutive Bit Flips]]                  | [[min_k_bit_flips.py]]              |     3 |
 |  830 | [[https://leetcode-cn.com/problems/positions-of-large-groups/][Positions of Large Groups]]                                  | [[large_group_positions.py]]        |     2 |
 |  765 | [[https://leetcode-cn.com/problems/couples-holding-hands/][Couples Holding Hands]]                                      | [[couples_holding_hands.py]]        |     2 |
@@ -197,6 +198,12 @@
 ** Rust
 
 ** 思路笔记
+
+*** 1004 Max Consecutive Ones
+将问题转化为：
+对于任意的右端点，希望找到最小的左端点，使得二者之间 =0= 的个数不大于 =K= 。
+
+因此，用数组 =P= 表示 =0= 的累积个数，作为辅助数组求解。
 
 *** 995 Minimum Number of K Consecutive Bit Flips
 1. =1= 元素被翻转奇数次为 =0= ，需要再翻转
