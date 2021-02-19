@@ -2,11 +2,13 @@
 
 * LeetCode 题解
 
+
 ** Python3
 
 |    # | Title                                                           | Solution                        | Times |
 |------+-----------------------------------------------------------------+---------------------------------+-------|
 | 1046 | [[https://leetcode-cn.com/problems/last-stone-weight/][Last Stone Weight]]                                          | [[last_stone_weight.py]]            |     1 |
+|  995 | [[https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/][Minimum Number of K Consecutive Bit Flips]]                  | [[min_k_bit_flips.py]]              |     3 |
 |  830 | [[https://leetcode-cn.com/problems/positions-of-large-groups/][Positions of Large Groups]]                                  | [[large_group_positions.py]]        |     2 |
 |  765 | [[https://leetcode-cn.com/problems/couples-holding-hands/][Couples Holding Hands]]                                      | [[couples_holding_hands.py]]        |     2 |
 |  684 | [[https://leetcode-cn.com/problems/redundant-connection/][Redundant Connection]]                                       | [[find_redundant_connection.py]]    |     2 |
@@ -195,6 +197,22 @@
 ** Rust
 
 ** 思路笔记
+
+*** 995 Minimum Number of K Consecutive Bit Flips
+1. =1= 元素被翻转奇数次为 =0= ，需要再翻转
+2. =0= 元素被翻转偶数次仍为 =0= ，需要再翻转
+3. 暴力解法为：遍历数组，遇到一个不为 1 的数，翻转 K 个元素
+
+=flips_A= 记录 =A= 数组中元素被翻转的次数，
+=diff_A= 为 =flips_A= 的差分数组，其中 =diff_A[i]=flips_A[i]-flips_A[i-1]= ，
+由差分数组的性质知， =sum(diff_A[:i])=flips_A[i]= ，为 =A[i]= 被翻转的次数。
+
+假设第 =j= 个元素发生翻转，即 =flips_A[j]...flips_A[j+K]= 都要 =+1= ，
+=diff_A[i]+=1=, =diff_A[i+K]-=1= 。
+
+接下来的优化方法有两步，
+1. 使用 =O(1)= 记录 =flips_A= 的元素
+2. 使用 =O(1)= 记录 =diff_A= 的元素
 
 *** 448 Find All Numbers Disappeared in an Array
 本身题目很简单，但限制了时间和空间复杂度之后就变得麻烦，主要还是之前没怎么做过这类题目。
