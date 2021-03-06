@@ -26,6 +26,7 @@
 |  399 | [[https://leetcode-cn.com/problems/evaluate-division/][Evaluate Division]]                                                          | [[evaluate_division.py]]            |     1 |
 |  304 | [[https://leetcode-cn.com/problems/range-sum-query-2d-immutable/][Range Sum Query 2D - Immutable]]                                             | [[sum_matrix.py]]                   |     2 |
 |  303 | [[https://leetcode-cn.com/problems/range-sum-query-immutable/][Range Sum Query - Immutable]]                                                | [[num_array.py]]                    |     1 |
+|  300 | [[https://leetcode-cn.com/problems/longest-increasing-subsequence/][Longest Increasing Subsequence]]                                             | [[length_of_LTS.py]]                |     3 |
 |  239 | [[https://leetcode-cn.com/problems/sliding-window-maximum/][Sliding Window Maximum]]                                                     | [[sliding_window_maximum.py]]       |     1 |
 |  189 | [[https://leetcode-cn.com/problems/rotate-array/][Rotate Array]]                                                               | [[rotate_array.py]]                 |     2 |
 |  187 | [[https://leetcode-cn.com/problems/repeated-dna-sequences/][Repeated DNA Sequences]]                                                     | [[find_repeated_dna.py]]            |     3 |
