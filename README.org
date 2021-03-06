@@ -20,6 +20,7 @@
 |  561 | [[https://leetcode-cn.com/problems/array-partition-i/][Array Partition I]]                                                          | [[array_partition_1.py]]            |     1 |
 |  547 | [[https://leetcode-cn.com/problems/number-of-provinces/][Number of Provinces]]                                                        | [[find_circle_num.py]]              |     2 |
 |  509 | [[https://leetcode-cn.com/problems/fibonacci-number/][Fibonacci Number]]                                                           | [[fibonacci_number.py]]             |     1 |
+|  503 | [[https://leetcode-cn.com/problems/next-greater-element-ii/][Next Greater Element II]]                                                    | [[next_greater_element.py]]         |     2 |
 |  448 | [[https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/][Find All Numbers Disappeared in an Array]]                                   | [[find_all_disappeared_numbers.py]] |     1 |
 |  435 | [[https://leetcode-cn.com/problems/non-overlapping-intervals/][Non-overlapping Intervals]]                                                  | [[non_overlapping_intervals.py]]    |     1 |
 |  399 | [[https://leetcode-cn.com/problems/evaluate-division/][Evaluate Division]]                                                          | [[evaluate_division.py]]            |     1 |
