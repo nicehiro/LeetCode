@@ -6,6 +6,7 @@ class Solution:
         return self.method2(nums)
 
     def method2(self, nums):
+        """动态规划"""
         dp = [1]
         l = len(nums)
         for i in range(1, l):
