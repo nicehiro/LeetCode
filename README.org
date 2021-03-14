@@ -13,6 +13,8 @@
 |  995 | [[https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/][Minimum Number of K Consecutive Bit Flips]]                                  | [[min_k_bit_flips.py]]              |     3 |
 |  830 | [[https://leetcode-cn.com/problems/positions-of-large-groups/][Positions of Large Groups]]                                                  | [[large_group_positions.py]]        |     2 |
 |  765 | [[https://leetcode-cn.com/problems/couples-holding-hands/][Couples Holding Hands]]                                                      | [[couples_holding_hands.py]]        |     2 |
+|  706 | [[https://leetcode-cn.com/problems/design-hashmap/][Design HashMap]]                                                             | [[my_hash_map.py]]                  |     1 |
+|  705 | [[https://leetcode-cn.com/problems/design-hashset/][Design HashSet]]                                                             | [[my_hash_set.py]]                  |     1 |
 |  697 | [[https://leetcode-cn.com/problems/degree-of-an-array/][Degree of an Array]]                                                         | [[degree_of_an_array.py]]           |     1 |
 |  684 | [[https://leetcode-cn.com/problems/redundant-connection/][Redundant Connection]]                                                       | [[find_redundant_connection.py]]    |     2 |
 |  605 | [[https://leetcode-cn.com/problems/can-place-flowers/][Can Place Flowers]]                                                          | [[can_place_flowers.py]]            |     3 |
