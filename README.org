@@ -23,10 +23,12 @@
 |  547 | [[https://leetcode-cn.com/problems/number-of-provinces/][Number of Provinces]]                                                        | [[find_circle_num.py]]              |     2 |
 |  509 | [[https://leetcode-cn.com/problems/fibonacci-number/][Fibonacci Number]]                                                           | [[fibonacci_number.py]]             |     1 |
 |  503 | [[https://leetcode-cn.com/problems/next-greater-element-ii/][Next Greater Element II]]                                                    | [[next_greater_element.py]]         |     2 |
+|  456 | [[https://leetcode-cn.com/problems/132-pattern/][132 Pattern]]                                                                | [[find_132.py]]                     |     1 |
 |  448 | [[https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/][Find All Numbers Disappeared in an Array]]                                   | [[find_all_disappeared_numbers.py]] |     1 |
 |  435 | [[https://leetcode-cn.com/problems/non-overlapping-intervals/][Non-overlapping Intervals]]                                                  | [[non_overlapping_intervals.py]]    |     1 |
 |  399 | [[https://leetcode-cn.com/problems/evaluate-division/][Evaluate Division]]                                                          | [[evaluate_division.py]]            |     1 |
 |  354 | [[https://leetcode-cn.com/problems/russian-doll-envelopes/][Russian Doll Envelopes]]                                                     | [[max_envelopes.py]]                |     4 |
+|  341 | [[https://leetcode-cn.com/problems/flatten-nested-list-iterator/][Flatten Nested List Iterator]]                                               | [[flatten_list.py]]                 |     2 |
 |  331 | [[https://leetcode-cn.com/problems/verify-preorder-serialization-of-a-binary-tree/][Verify Preorder Serialization of a Binary Tree]]                             | [[is_valid_preorder_tree.py]]       |     1 |
 |  304 | [[https://leetcode-cn.com/problems/range-sum-query-2d-immutable/][Range Sum Query 2D - Immutable]]                                             | [[sum_matrix.py]]                   |     2 |
 |  303 | [[https://leetcode-cn.com/problems/range-sum-query-immutable/][Range Sum Query - Immutable]]                                                | [[num_array.py]]                    |     1 |
