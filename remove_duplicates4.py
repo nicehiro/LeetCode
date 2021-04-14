@@ -4,8 +4,12 @@ class ListNode:
         self.val = x
         self.next = None
 
+
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
+        return self.method2(head)
+
+    def method1(self, head):
         if head is None:
             return None
         l = r = head
@@ -17,12 +21,27 @@ class Solution:
                 l = l.next
         return head
 
+    def method2(self, head: ListNode) -> ListNode:
+        if not head:
+            return head
+        dummy = ListNode(None)
+        dummy.next = head
+        prev = dummy
+        while head:
+            while head and head.val == prev.val:
+                head = head.next
+            prev.next = head
+            if head:
+                head = head.next
+                prev = prev.next
+        return dummy.next
+
 
 def print_node(n: ListNode):
     while n is not None:
-        print(n.val, end='\t')
+        print(n.val, end="\t")
         n = n.next
-    print('')
+    print("")
 
 
 def construct(l: list):
@@ -36,9 +55,9 @@ def construct(l: list):
     return head.next
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     solu = Solution()
-    head = construct([1,1,2,3,3])
+    head = construct([1, 1, 2, 3, 3])
     print_node(head)
     head = solu.deleteDuplicates(head)
     print_node(head)

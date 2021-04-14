@@ -7,8 +7,10 @@
 |    # | Title                                                                           | Solution                        | Times |
 |------+---------------------------------------------------------------------------------+---------------------------------+-------|
 | 1438 | [[https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/][Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit]] | [[longest_subarray.py]]             |     3 |
+| 1143 | [[https://leetcode-cn.com/problems/longest-common-subsequence/][Longest Common Subsequence]]                                                 | [[longest_common_subseq.py]]        |     2 |
 | 1047 | [[https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/][Remove All Adjacent Duplicates In String]]                                   | [[remove_adj_duplicates.py]]        |     3 |
 | 1046 | [[https://leetcode-cn.com/problems/last-stone-weight/][Last Stone Weight]]                                                          | [[last_stone_weight.py]]            |     1 |
+| 1006 | [[https://leetcode-cn.com/problems/clumsy-factorial/][Clumsy Factorial]]                                                           | [[clumsy_factorial.py]]             |     1 |
 | 1004 | [[https://leetcode-cn.com/problems/max-consecutive-ones-iii/][Max Consecutive Ones III]]                                                   | [[max_consecutive_ones.py]]         |     3 |
 |  995 | [[https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/][Minimum Number of K Consecutive Bit Flips]]                                  | [[min_k_bit_flips.py]]              |     3 |
 |  830 | [[https://leetcode-cn.com/problems/positions-of-large-groups/][Positions of Large Groups]]                                                  | [[large_group_positions.py]]        |     2 |
@@ -36,6 +38,7 @@
 |  239 | [[https://leetcode-cn.com/problems/sliding-window-maximum/][Sliding Window Maximum]]                                                     | [[sliding_window_maximum.py]]       |     1 |
 |  227 | [[https://leetcode-cn.com/problems/basic-calculator-ii/][Basic Calculator II]]                                                        | [[basic_calc_2.py]]                 |     6 |
 |  224 | [[https://leetcode-cn.com/problems/basic-calculator/][Basic Calculator]]                                                           | [[basic_calc.py]]                   |     2 |
+|  208 | [[https://leetcode-cn.com/problems/implement-trie-prefix-tree/][Implement Trie]]                                                             | [[trie.py]]                         |     1 |
 |  189 | [[https://leetcode-cn.com/problems/rotate-array/][Rotate Array]]                                                               | [[rotate_array.py]]                 |     2 |
 |  187 | [[https://leetcode-cn.com/problems/repeated-dna-sequences/][Repeated DNA Sequences]]                                                     | [[find_repeated_dna.py]]            |     3 |
 |  179 | [[https://leetcode-cn.com/problems/largest-number/][Largest Number]]                                                             | [[largest_number.py]]               |     3 |
