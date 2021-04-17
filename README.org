@@ -38,6 +38,8 @@
 |  239 | [[https://leetcode-cn.com/problems/sliding-window-maximum/][Sliding Window Maximum]]                                                     | [[sliding_window_maximum.py]]       |     1 |
 |  227 | [[https://leetcode-cn.com/problems/basic-calculator-ii/][Basic Calculator II]]                                                        | [[basic_calc_2.py]]                 |     6 |
 |  224 | [[https://leetcode-cn.com/problems/basic-calculator/][Basic Calculator]]                                                           | [[basic_calc.py]]                   |     2 |
+|  220 | [[https://leetcode-cn.com/problems/contains-duplicate-iii/][Contains Duplicate III]]                                                     | [[contains_duplicate.py]]           |     3 |
+|  213 | [[https://leetcode-cn.com/problems/house-robber-ii/][House Robber II]]                                                            | [[rob.py]]                          |     3 |
 |  208 | [[https://leetcode-cn.com/problems/implement-trie-prefix-tree/][Implement Trie]]                                                             | [[trie.py]]                         |     1 |
 |  189 | [[https://leetcode-cn.com/problems/rotate-array/][Rotate Array]]                                                               | [[rotate_array.py]]                 |     2 |
 |  187 | [[https://leetcode-cn.com/problems/repeated-dna-sequences/][Repeated DNA Sequences]]                                                     | [[find_repeated_dna.py]]            |     3 |
