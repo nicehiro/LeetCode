@@ -182,7 +182,7 @@
 |   30 | [[https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/submissions/][Substring with Concatenation of All Words]]                                  | [[find_substring.py]]               |       |
 |   29 | [[https://leetcode-cn.com/problems/divide-two-integers/][Divide Two Integers]]                                                        | [[divide.py]]                       |       |
 |   28 | [[https://leetcode-cn.com/problems/implement-strstr/][Implement strStr()]]                                                         | -                               |       |
-|   27 | [[https://leetcode-cn.com/problems/remove-element/][Remove Element]]                                                             | -                               |       |
+|   27 | [[https://leetcode-cn.com/problems/remove-element/][Remove Element]]                                                             | [[remove_element.py]]               |     2 |
 |   26 | [[https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/][Remove Duplicates from Sorted Array]]                                        | [[remove_duplicates.py]]            |       |
 |   25 | [[https://leetcode-cn.com/problems/reverse-nodes-in-k-group/][Reverse Nodes in k-Group]]                                                   | [[reverse_k_group.py]]              |       |
 |   24 | [[https://leetcode-cn.com/problems/swap-nodes-in-pairs/][Swap Nodes in Pairs]]                                                        | [[swap_pairs.py]]                   |       |
