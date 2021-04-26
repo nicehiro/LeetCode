@@ -10,6 +10,7 @@
 | 1143 | [[https://leetcode-cn.com/problems/longest-common-subsequence/][Longest Common Subsequence]]                                                 | [[longest_common_subseq.py]]        |     2 |
 | 1047 | [[https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/][Remove All Adjacent Duplicates In String]]                                   | [[remove_adj_duplicates.py]]        |     3 |
 | 1046 | [[https://leetcode-cn.com/problems/last-stone-weight/][Last Stone Weight]]                                                          | [[last_stone_weight.py]]            |     1 |
+| 1011 | [[https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/][Capacity to Ship Package within D Days]]                                     | [[ship_with_in_d_days.py]]          |     1 |
 | 1006 | [[https://leetcode-cn.com/problems/clumsy-factorial/][Clumsy Factorial]]                                                           | [[clumsy_factorial.py]]             |     1 |
 | 1004 | [[https://leetcode-cn.com/problems/max-consecutive-ones-iii/][Max Consecutive Ones III]]                                                   | [[max_consecutive_ones.py]]         |     3 |
 |  995 | [[https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/][Minimum Number of K Consecutive Bit Flips]]                                  | [[min_k_bit_flips.py]]              |     3 |
